@@ -1,24 +1,82 @@
-.nav {
+/* Navbar container */
+.navbar {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.9);
-    padding: 15px 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-}
-
-.nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 20px;
-    font-size: 18px;
+    padding: 10px 0;
+    background-color: transparent;
+  }
+  
+  /* Inner container with rounded background */
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+  }
+  
+  /* Logo */
+  .logo {
+    font-size: 24px;
     font-weight: bold;
-    transition: 0.3s ease-in-out;
+    color: white;
+  }
+  
+  /* Navigation links */
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .nav-links .active {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .nav-links li:hover {
+    color: white;
+  }
+  
+  /* Social Icons */
+  .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .icon {
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+  }
+  
+  .icon:hover {
+    opacity: 0.7;
+  }
+  .nav-links a {
+    text-decoration: none; /* Removes underline */
+    color: white; /* Ensures default color is white */
+    font-weight: normal;
+    transition: color 0.3s;
 }
 
-.nav a:hover {
-    color: #92d8e8; /* Light blue hover effect */
+.nav-links a:hover {
+    color: #ebc660; /* Changes color on hover */
+}
+
+/* Remove the default browser 'visited' purple color */
+.nav-links a:visited {
+    color: white; /* Ensures the color stays white */
 }

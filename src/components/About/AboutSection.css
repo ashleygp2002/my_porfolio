@@ -1,0 +1,93 @@
+/* About Section Container */
+.about-container {
+  background-color: #000000;
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+  margin: 0;
+  width: 100vw; /* Full viewport width */
+  min-width: 100vw; /* Ensures it spans full width */
+  position: relative; /* Fixes any overlapping issues */
+  left: 0;
+  right: 0;
+}
+
+/* Section Title */
+.section-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-title {
+    background-color: #ebc660;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.description-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw; /* Force full width */
+  max-width: none;
+  margin: 40px 0;
+  align-items: center;
+}
+
+
+.description-item {
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 20px;
+}
+
+.description-item-left {
+    flex-grow: 0;
+    flex-basis: 40%;
+    text-align: center;
+}
+
+/* Profile Image */
+.profile-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #ebc660;
+}
+
+/* Description Text */
+.description-text {
+    max-width: 1050px;
+    margin: 0 10px;
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: left;
+    font-weight: 400;
+}
+
+/* Skills Section */
+.skills-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.description-text strong {
+    font-weight: 600;
+    color: #f4d06f;
+}
+
+.section-subtitle {
+    font-size: 24px;
+    color: #ebc660;
+}
+
+.skills-container {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
