@@ -11,13 +11,18 @@
 h3 {
     color: #92d8e8;
     font-size: 20px;
+    
 }
 
 h1 {
     font-size: 50px;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
 }
 
 p {
     font-size: 18px;
     opacity: 0.8;
+    font-family: "Courier New", monospace;
+
 }

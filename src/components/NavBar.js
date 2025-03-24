@@ -15,7 +15,7 @@ const NavBar = () => {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/work">Work</Link></li>
           <li>About</li>
-          <li>Contact</li>
+            <li><Link to="/contact">Contact</Link></li>
         </ul>
 
         {/* Social Icons */}

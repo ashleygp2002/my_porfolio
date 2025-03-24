@@ -2,6 +2,13 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import "./ProjectSection.css";
 import SweepAIPoster from "../../assets/ProjectImages/SweepAIPoster.png";
+import Snapcard from "../../assets/ProjectImages/Snapcard.png";
+import website from "../../assets/ProjectImages/website.png";
+import Aggressive1 from "../../assets/ProjectImages/aggresive_wraps1.png";
+import Aggressive2 from "../../assets/ProjectImages/aggresive_wraps2.png";
+import Aggressive3 from "../../assets/ProjectImages/aggresive_wraps3.png"; 
+
+
 
 
 const projects = [
@@ -15,12 +22,13 @@ const projects = [
   },
   {
     id: 2,
-    title: "HackDavis 2024: JobScoper",
+    title: "Website: Aggressive Wraps",
     description:
-      "JobScoper is a React app that scrapes job postings to check fit. Uses Selenium, OpenAI API, and social justice APIs for location info.",
-    image: "/assets/ProjectImages/JobScoperScreenCap.png",
-    links: [{ title: "DevPost", url: "https://devpost.com/software/job-scoper" }],
+      "A responsive car wrap business site with multiple pages and services gallery.",
+    image: [Aggressive1, Aggressive2, Aggressive3], // 👈 now it's an array
+    links: [{ title: "GitHub", url: "https://github.com/ashleygp2002/aggressive-car-raps" }],
   },
+  
   {
     id: 3,
     title: "Kaggle: Store Sales Time Series Forecasting",
@@ -31,19 +39,19 @@ const projects = [
   },
   {
     id: 4,
-    title: "PUNKT: Distribution Center Data Analysis",
+    title: "SnapACart",
     description:
       "Analyzed real-world data from a shipping center in the Netherlands for my final study abroad project.",
-    image: "/assets/ProjectImages/Punkt.png",
-    links: [{ title: "Google Drive", url: "https://drive.google.com/file/d/1OotQMgFvDIU7ONffWX_rZKqa9sKB3F5e/view?usp=sharing" }],
+    image: Snapcard,
+    links: [{ title: "Google Drive", url: "https://github.com/JishTheFish20/SnapACart" }],
   },
   {
     id: 5,
     title: "This Website!",
     description:
       "A recursive portfolio? Built using React and hosted on GitHub Pages.",
-    image: "/assets/ProjectImages/SiteCap.png",
-    links: [{ title: "GitHub", url: "https://github.com/ajgrant6/ajgrant6.github.io" }],
+    image: website,
+    links: [{ title: "GitHub", url: "https://github.com/ashleygp2002/my_porfolio" }],
   },
 ];
 
@@ -59,5 +67,7 @@ const WorkSection = () => {
     </section>
   );
 };
+
+
 
 export default WorkSection;

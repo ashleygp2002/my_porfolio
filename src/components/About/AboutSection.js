@@ -40,7 +40,7 @@ const AboutSection = () => {
         >
           <div className="description-text">
             <p>
-              Hello, my name is <strong>Ashley Gonzalez Perez</strong>. I hold a <strong>Bachelor of Science in Computer Science</strong> 
+              Hello, my name is <strong>Ashley Gonzalez Perez</strong>. I hold a <strong>Bachelor of Science in Computer Science </strong> 
               with a minor in <strong>Management, Business, and Economics</strong> from the University of California, Merced.
             </p>
             <p>
