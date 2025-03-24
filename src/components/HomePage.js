@@ -12,8 +12,10 @@ const HomePage = () => {
             <AboutSection />
 
             <section id="experience" className="background2">
-                <h1>Experience</h1>
+                {/* <h1>Experience</h1> */}
+                
             </section>
+            
 
             {/* <section id="contact" className="background1">
                 <h1>Contact</h1>

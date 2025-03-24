@@ -48,8 +48,21 @@ const AboutSection = () => {
               I am constantly exploring new technologies and acquiring new skills.
             </p>
             <p>
-              Thank you for visiting my site. I hope you find the content engaging and that you gain a better understanding of my work.
+              Lately, I’ve been <strong>building websites for small businesses</strong> to help bring their online presence to life. In my free time, I'm also working toward a 
+              <strong> certification in Data Analytics</strong> to deepen my understanding of data-driven decision making.
             </p>
+
+            <p>
+              I'm currently seeking <strong>entry-level opportunities as a Software Engineer or Front-End Developer</strong> where I can grow, contribute, and continue creating meaningful user experiences.
+            </p>
+
+
+            <div className="about-closing">
+              <p>
+                Thank you for visiting my site. I hope you find the content engaging and that you gain a better understanding of my work.
+              </p>
+
+            </div>
           </div>
         </motion.div>
       </div>
