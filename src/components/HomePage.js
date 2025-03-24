@@ -15,9 +15,9 @@ const HomePage = () => {
                 <h1>Experience</h1>
             </section>
 
-            <section id="contact" className="background1">
+            {/* <section id="contact" className="background1">
                 <h1>Contact</h1>
-            </section>
+            </section> */}
         </div>
     );
 };

@@ -12,6 +12,7 @@
     background: #121212;
     color: white;
     max-width: 400px;
+    height: 500px;
 }
 
 .project-card:hover {
@@ -61,4 +62,5 @@
   .project-card-link:hover {
     opacity: 0.95;
   }
+  
   

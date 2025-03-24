@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+.app-container {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +42,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* Reset margin + padding to avoid weird layout gaps */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden; /* prevent any accidental horizontal scrolling */
 }

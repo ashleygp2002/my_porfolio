@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ParticleBackground from "./components/Title/ParticleBackground";
 import NavBar from "./components/NavBar";
 import HomePage from "./components/HomePage";
-import WorkPage from "./components/Projects/ProjectSection";
+import WorkPage from "./components/Projects/WorkSection";
 import ContactPage from "./components/Contact/ContactPage";
 import Footer from "./components/Footer";
 import "./styles.css";
@@ -11,6 +11,7 @@ import "./styles.css";
 // import "slick-carousel/slick/slick-theme.css";
 import "swiper/css";
 import "swiper/css/navigation";
+import AboutPage from "./components/About/AboutPage";
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
                 <Routes>
                     <Route path="/" element={<HomePage />} />
                     <Route path="/work" element={<WorkPage />} />
+                    <Route path="/about" element={<AboutPage />} />
                     <Route path="/contact" element={<ContactPage />} />
                 </Routes>
                 <Footer />
