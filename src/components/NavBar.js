@@ -30,7 +30,7 @@ const NavBar = () => {
 
         {/* Social Icons */}
         <div className="social-icons">
-          <a href="https://www.linkedin.com/in/ashley-gonzalez-perez/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/ashleygp/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="icon" />
           </a>
           <a href="https://github.com/ashleygp2002" target="_blank" rel="noopener noreferrer">

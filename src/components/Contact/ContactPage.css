@@ -64,7 +64,7 @@ input:focus, textarea:focus, select:focus {
     background: rgba(255, 255, 255, 0.3);
   }
 
-button {
+.contact-page button {
     width: 100%;
     padding: 14px;
     background: #4caf50;
@@ -78,6 +78,6 @@ button {
     font-family: "Courier New", monospace;
 }
 
-button:hover {
+.contact-page button:hover {
     background: #3e8e41;
 }

@@ -12,6 +12,7 @@ import "./styles.css";
 import "swiper/css";
 import "swiper/css/navigation";
 import AboutPage from "./components/About/AboutPage";
+import ChatWidget from "./components/Chat/ChatWidget";
 
 
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
                     <Route path="/contact" element={<ContactPage />} />
                 </Routes>
                 <Footer />
+                <ChatWidget />
             </div>
         </Router>
     );
