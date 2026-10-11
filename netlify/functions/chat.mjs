@@ -2,6 +2,8 @@
 // The chat logic lives in api/chat.js (also used by `npm start` via src/setupProxy.js);
 // this file just adapts Netlify's Request/Response to it.
 // Set ANTHROPIC_API_KEY in Netlify: Site configuration → Environment variables.
+// Netlify only bundles packages it sees imported here, not ones required inside api/chat.js.
+import "@anthropic-ai/sdk";
 import chatHandler from "../../api/chat.js";
 
 export default async (req) => {
