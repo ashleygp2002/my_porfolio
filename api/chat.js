@@ -1,5 +1,5 @@
-// Serverless function (Vercel) that keeps the Anthropic API key off the browser.
-// Set ANTHROPIC_API_KEY in your Vercel project's Environment Variables.
+// Chat backend that keeps the Anthropic API key off the browser.
+// Served by netlify/functions/chat.mjs in production and src/setupProxy.js during `npm start`.
 const Anthropic = require("@anthropic-ai/sdk");
 
 const client = new Anthropic();

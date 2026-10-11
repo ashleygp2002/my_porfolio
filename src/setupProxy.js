@@ -1,5 +1,5 @@
 // Lets `npm start` serve /api/chat locally (create-react-app loads this automatically).
-// In production, Vercel serves api/chat.js directly.
+// In production, Netlify serves it through netlify/functions/chat.mjs.
 const express = require("express");
 const chatHandler = require("../api/chat");
 
